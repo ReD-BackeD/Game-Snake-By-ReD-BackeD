@@ -3,8 +3,11 @@
 This Game Use Only:
 
 W = Up
+
 S = Down
+
 A = Left
+
 D = Right
 
 Command Type:
