@@ -17,7 +17,7 @@ high_score = 0
 # Set up the screen
 wn = turtle.Screen()
 wn.title("Snake Game by @ReD-BackeD")
-wn.bgcolor("white")
+wn.bgcolor("grey")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
 
@@ -25,7 +25,7 @@ wn.tracer(0) # Turns off the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("black")
+head.color("white")
 head.penup()
 head.goto(0,0)
 head.direction = "stop"
@@ -129,7 +129,7 @@ while True:
         new_segment = turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("grey")
+        new_segment.color("black")
         new_segment.penup()
         segments.append(new_segment)
 
